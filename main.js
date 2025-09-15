@@ -31,7 +31,7 @@ const infoPanel = document.getElementById('infoPanel');
 async function loadModel() {
     const loader = new GLTFLoader();
     try {
-        const gltf = await loader.loadAsync('https://github.com/imandaidfa/List-3D-Object/raw/refs/heads/main/mini_room_art_first.gltf');
+        const gltf = await loader.loadAsync('https://raw.githubusercontent.com/imandaidfa/List-3D-Object/refs/heads/main/mini_room_art_first.gltf');
         roomModel = gltf.scene;
         scene.add(roomModel);
         console.log('Model loaded successfully!');
