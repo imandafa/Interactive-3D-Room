@@ -56,7 +56,7 @@ function onMouseClick(event) {
         console.log('Clicked object name:', clickedObject.name);
 
         // *** IMPORTANT: Change 'PersonalPhoto' to the exact name of your 3D object in the glTF file. ***
-        if (clickedObject.name === 'PersonalPhoto') {
+        if (clickedObject.name === 'picture-8') {
             infoPanel.style.display = 'block';
             infoPanel.innerHTML = '<h2>My Personal Photo</h2><p>This is a photo of a memorable trip!</p>';
         } else {
